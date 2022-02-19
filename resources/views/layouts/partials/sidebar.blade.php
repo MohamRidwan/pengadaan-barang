@@ -35,7 +35,7 @@
         </li>
         <li class="{{ Request::is('barang-masuk')? "active":"" }}"><a href="/pengadaanbarang/barang-masuk" ><em class="fa fa-download color-blue">&nbsp;</em> <b> Barang Masuk </b></a></li>
         <li  class="{{ Request::is('barang-keluar')? "active":"" }}"><a href="/pengadaanbarang/barang-keluar"><em class="fa fa-upload color-blue">&nbsp;</em> <b> Barang Keluar </b></a></li>
-        <li  class="{{ Request::is('transaksi')? "active":"" }}"><a href="/pengadaanbarang/transaksi"><em class="fa fa-shopping-bag color-blue">&nbsp;</em> <b> Transaksi </b></a></li>
+        <li  class="{{ Request::is('transaksi')? "active":"" }}"><a href="/pengadaanbarang/transaksi"><em > <i class="fa- fa-docm"></i> &nbsp;</em> <b> Laporan </b></a></li>
         <li  class="{{ Request::is('cetak-laporan')? "active":"" }}"><a href="/pengadaanbarang/cetak-laporan"><em class="fa fa-print color-blue">&nbsp;</em> <b> Cetak Laporan </b></a></li>
         @role('admin')
         <li  class="{{ Request::is('user-management')? "active":"" }}"><a href="/pengadaanbarang/user-management"><em class="fa fa-user color-blue">&nbsp;</em> <b> User Management </b></a></li>
