@@ -31,6 +31,7 @@
             <div class="row">
                 <div class="col-sm-5"></div>
         <div class=""><a href="{{ route('login') }}" class="btn btn-primary col-sm-2">LOGIN</a></div>
+        <div class=""><a href="a" class="btn btn-primary col-sm-2">aa</a></div>
         <div class="col-sm-5"></div>
     </div>
     </div>

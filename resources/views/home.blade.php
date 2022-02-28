@@ -27,7 +27,9 @@
 					<div class="panel panel-teal panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-users color-blue"></em>
 							<div class="large">{{ DB::table('suppliers')->count(); }}</div>
-							<div class="text-muted">Data Supplier</div>
+							<div class="text-muted">
+								<a href="/pengadaanbarang/supplier" class="btn btn-primary">Data Supplier</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -35,7 +37,7 @@
 					<div class="panel panel-blue panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-dropbox color-orange"></em>
 							<div class="large">{{ DB::table('barangs')->count(); }}</div>
-							<div class="text-muted">Total Data Barang</div>
+							<div class="text-muted"><a href="/pengadaanbarang/barang" class="btn btn-warning">Total Data Barang </a> </div>
 						</div>
 					</div>
 				</div>
@@ -43,7 +45,7 @@
 					<div class="panel panel-orange panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-download color-teal"></em>
 							<div class="large">{{ DB::table('barang_masuks')->count(); }}</div>
-							<div class="text-muted">Total Data Barang Masuk</div>
+							<div class="text-muted"><a href="/pengadaanbarang/barang-masuk" class="btn btn-success">Total Data Barang Masuk </a></div>
 						</div>
 					</div>
 				</div>
@@ -51,7 +53,7 @@
 					<div class="panel panel-red panel-widget ">
 						<div class="row no-padding"><em class="fa fa-xl fa-upload color-red"></em>
 							<div class="large">{{ DB::table('barang_keluars')->count(); }}</div>
-							<div class="text-muted">Total Data Barang Keluar</div>
+							<div class="text-muted"> <a href="/pengadaanbarang/barang-keluar" class="btn btn-success">Total Data Barang Keluar</a></div>
 						</div>
 					</div>
 				</div>
